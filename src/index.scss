@@ -1,0 +1,70 @@
+/***
+  Resets and wrapper
+***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    display: flex;
+    flex-direction: column;
+    font: 14px "Century Gothic", Futura, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+body,
+#root {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+/*
+-
+-
+*/
+
+/***
+  Main board container
+***/
+.board {
+    border: 1px solid #151515;
+    border-radius: 1rem;
+    display: flex;
+}
+/*
+-
+-
+*/
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game-info {
+    margin-left: 20px;
+}
