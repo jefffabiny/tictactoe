@@ -1,4 +1,4 @@
-# Tic Tac Toe - The frontend engineer way
+# Tic Tac Toe - A Frontend Engineer Showcase
 
 Hello, friends! Thanks for checking out my project.
 
